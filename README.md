@@ -1,7 +1,7 @@
 # Building-Age-Classification
 building age classification from satellite image
 
-#  SEKU Data Science Regional Hackathon (theDSRH)
+#  SEKU Data Science Regional Hackathon (DSRH)
 
 ## Project Overview
 For the SEKU Data Science Regional Hackathon, our team tackled a complex unsupervised domain adaptation challenge: **Can a machine learning model trained on building age data from one city (Madrid) successfully transfer its knowledge and predict building ages in another city (Amsterdam) using 42 years of Landsat satellite data?**
