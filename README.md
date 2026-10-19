@@ -37,6 +37,20 @@ Instead of treating this as a standard classification problem, we investigated h
 * **Libraries:** Pandas, NumPy, Scikit-learn, SciPy, Seaborn, Matplotlib
 * **Modelling:** Class-Balanced Random Forest (300 trees), 1D-CNN exploration, Domain Adaptation & Prototype Blending Framework
 
+
+DSRH-building-age-adaptation/
+│
+├── data/                  # Sample or directory path references for Madrid & Amsterdam datasets
+├── notebooks/             # Jupyter notebooks for Exploratory Data Analysis & baseline experiments
+├── src/                   # Production-ready Python scripts
+│   ├── preprocessing.py   # Landsat data cleaning, gap interpolation, and outlier handling
+│   ├── feature_eng.py     # Extraction of the 81 spectral, shape, and level features
+│   ├── validation.py      # Spatially blocked cross-validation logic
+│   └── domain_adapt.py    # Prototype blending and domain standardization transfer logic
+│
+├── README.md              # Main project documentation & results
+└── requirements.txt       # Project dependencies
+
 ---
 
 ## Future Improvements
