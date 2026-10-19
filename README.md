@@ -37,8 +37,9 @@ Instead of treating this as a standard classification problem, we investigated h
 * **Libraries:** Pandas, NumPy, Scikit-learn, SciPy, Seaborn, Matplotlib
 * **Modelling:** Class-Balanced Random Forest (300 trees), 1D-CNN exploration, Domain Adaptation & Prototype Blending Framework
 
+---
 
-DSRH-building-age-adaptation/
+*DSRH-building-age-adaptation/
 │
 ├── data/                  # Sample or directory path references for Madrid & Amsterdam datasets
 ├── notebooks/             # Jupyter notebooks for Exploratory Data Analysis & baseline experiments
